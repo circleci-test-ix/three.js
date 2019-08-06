@@ -6,4 +6,5 @@ jobs:
       - image: circleci/node    
     steps:
       - checkout
+      - run: npm ci
       - run: npm run travis
